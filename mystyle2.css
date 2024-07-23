@@ -1,0 +1,243 @@
+/*syntax prperty:value; */
+/*global*/
+body{
+    font-family: "Nanum Gothic", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+@media(max-width: 758px) {
+    body{
+        display: flex;
+        flex-direction: column;
+    }
+    .mau-container{
+        display: flex;
+        flex-direction: column;
+    }
+    .house-item{
+        display: flex;
+        flex-direction: column;
+    }
+    }
+}
+p{
+    line-height: 2;
+}
+h2,h3{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+img{
+    max-width: 100;
+}
+/*Utilities*/
+.body{
+align-items: center;
+}
+.Container{
+    width: 80px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*header*/
+.header{
+    background-image: url(./img/header.jpg);
+    background-size: cover;
+    background-position: center center;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    height: 400px;
+}
+.header-flex{
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+}
+.nav a{
+    color: white;
+}
+/*More about us*/
+.mau-container{
+    display: flex;
+}
+/*house and penthouse*/
+.house-item{
+    display: flex;
+    text-align: center;
+}
+.house-item-img{
+    width: 50;
+}
+.house-item-text{
+padding: 20px;
+}
+.fieldset-item{
+    background-color: #dedede;
+}
+.btn-details{
+    display: block;
+    background-color: #db8b29;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
+.icon-container{
+    display: flex;
+    margin: auto;
+}
+.icons-container{
+    display: flex;
+}
+.icons-num{
+    margin-top: auto;
+    padding-left: 20px;
+}
+.See-More{
+    color: white;
+}
+
+/*about*/
+.abouthead{
+    background-image: url(./img/us\ \(1\).jpg);
+    background-size: cover;
+    background-position: center center;
+    justify-content: space-around;
+    color: white;
+    text-align: center;
+    height: 200px;
+}
+.aboutmain {
+    text-align: center;
+}
+.aboutmainimg {
+    height: 50%;
+    width: 50%;
+}
+/*Blog*/
+.blog-item{
+    display: flex;
+}
+.blog-img{
+    width: ;
+}
+.blogfield{
+    background-color: #dedede;
+}
+.blogmain{
+    text-align: center;
+}
+/*contact*/
+.headhome a{
+    color: black;
+}
+.contact-container{
+   margin: auto;
+   width: 70%;
+   padding: 40px;
+}
+.ContactInfo-Header{
+   text-align: center;
+}
+.site-contact{
+    background-color: #db8b29;
+    height: 250px;
+    display: flex;
+}
+.navigation-bar{
+    display: flex;
+    justify-content: space-around;
+    padding: 35px;
+    padding-left: 70%;
+}
+.navigation-bar a{
+    color: black;
+    margin-right: 30px;
+}
+.form-container{
+    background-color: #dedede;
+    padding: 20px;
+    border-radius: 10px;
+}
+fieldset{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin-bottom: 20px;
+}
+legend{
+    font-size: 14px;
+}
+.input-container{
+    margin: 10px;
+}
+.type-edit{
+    margin: 10px;
+}
+.input-container2{
+    margin-top: 10%;
+    margin-left: 200px;
+    margin-right: 185px;
+}
+.input-container3{
+    margin-top: 10%;
+    margin-left: 70px;
+    width: 35%;
+    margin-bottom: 10%;
+}
+.input-container label{
+    display: inline-block;
+    width: 2%;
+}
+.input-container input,
+.input-container textarea{
+    display: inline-block;
+    width: 85%;
+    border: 1px solid rgb(158, 158, 158);
+    padding: 3px;
+    margin-left: 60px;
+}
+footer{
+    background-color: #dedede;
+    height: 200px;
+    margin-top: 30px;
+}
+.footer-container{
+    display: flex;
+    padding-top: 75px;
+}
+.divider {
+    display: inline-block;
+    width: 1px;
+    background-color: rgb(0, 0, 0);
+  }
+.text-container{
+    display: flex;
+    margin: auto;
+}
+.text-container p:first-of-type{
+    margin-right: 20px;
+}
+.text-container p:last-of-type{
+    border: 3 px solid black;
+    padding-left: 20px;
+    text-decoration: underline;
+}
+.brand-container i{
+    border: 1px solid black;
+    border-radius: 50%;
+    padding: 10px;
+}
+select{
+    width: 90%;
+}
+.z-edit{
+    text-decoration: underline;
+}
+/*footer*/
